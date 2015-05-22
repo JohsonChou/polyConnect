@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>518E39C5-2C49-4020-8D0E-4D752F354BC6</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>polyConnect</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>22DD36690A3BDB76EF9637840CAE6DF631DF524E</key>
 		<string>https://github.com/JohsonChou/polyConnect.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>polyConnect/polyConnect.xcodeproj/project.xcworkspace</string>
+	<string>polyConnect/polyConnect.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>22DD36690A3BDB76EF9637840CAE6DF631DF524E</key>

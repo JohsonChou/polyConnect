@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1315CB181B0FC5A200607DC3 /* FloorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315CB171B0FC5A200607DC3 /* FloorTableViewCell.swift */; };
+		1315CB1A1B0FC5B000607DC3 /* FloorTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315CB191B0FC5B000607DC3 /* FloorTableViewController.swift */; };
+		1315CB1C1B0FC7E300607DC3 /* HexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1315CB1B1B0FC7E300607DC3 /* HexColor.swift */; };
 		13DC6BD31B0F935800037D1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13DC6BD21B0F935800037D1C /* AppDelegate.swift */; };
 		13DC6BD81B0F935800037D1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13DC6BD61B0F935800037D1C /* Main.storyboard */; };
 		13DC6BDA1B0F935800037D1C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13DC6BD91B0F935800037D1C /* Images.xcassets */; };
@@ -28,6 +31,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1315CB171B0FC5A200607DC3 /* FloorTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloorTableViewCell.swift; sourceTree = "<group>"; };
+		1315CB191B0FC5B000607DC3 /* FloorTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloorTableViewController.swift; sourceTree = "<group>"; };
+		1315CB1B1B0FC7E300607DC3 /* HexColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexColor.swift; sourceTree = "<group>"; };
 		13DC6BCD1B0F935800037D1C /* polyConnect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = polyConnect.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13DC6BD11B0F935800037D1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		13DC6BD21B0F935800037D1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +67,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1315CB151B0FC57E00607DC3 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Cell;
+			sourceTree = "<group>";
+		};
+		1315CB161B0FC58300607DC3 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				1315CB171B0FC5A200607DC3 /* FloorTableViewCell.swift */,
+			);
+			name = Data;
+			sourceTree = "<group>";
+		};
 		13DC6BC41B0F935800037D1C = {
 			isa = PBXGroup;
 			children = (
@@ -82,6 +103,8 @@
 		13DC6BCF1B0F935800037D1C /* polyConnect */ = {
 			isa = PBXGroup;
 			children = (
+				1315CB161B0FC58300607DC3 /* Data */,
+				1315CB151B0FC57E00607DC3 /* Cell */,
 				13DC6BFA1B0FA6C300037D1C /* ViewController */,
 				13DC6BF41B0FA52700037D1C /* ThirdParty */,
 				13DC6BD21B0F935800037D1C /* AppDelegate.swift */,
@@ -122,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				13DC6BF71B0FA54400037D1C /* SwiftyJSON.h */,
+				1315CB1B1B0FC7E300607DC3 /* HexColor.swift */,
 				13DC6BF51B0FA53700037D1C /* SwiftyJSON.swift */,
 			);
 			name = ThirdParty;
@@ -132,6 +156,7 @@
 			children = (
 				13DC6BF81B0FA6BA00037D1C /* AvaliViewController.swift */,
 				13DC6BF21B0FA26100037D1C /* MainViewController.swift */,
+				1315CB191B0FC5B000607DC3 /* FloorTableViewController.swift */,
 			);
 			name = ViewController;
 			sourceTree = "<group>";
@@ -236,7 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1315CB1C1B0FC7E300607DC3 /* HexColor.swift in Sources */,
 				13DC6BF91B0FA6BA00037D1C /* AvaliViewController.swift in Sources */,
+				1315CB181B0FC5A200607DC3 /* FloorTableViewCell.swift in Sources */,
+				1315CB1A1B0FC5B000607DC3 /* FloorTableViewController.swift in Sources */,
 				13DC6BF61B0FA53700037D1C /* SwiftyJSON.swift in Sources */,
 				13DC6BD31B0F935800037D1C /* AppDelegate.swift in Sources */,
 				13DC6BF31B0FA26100037D1C /* MainViewController.swift in Sources */,
@@ -435,6 +463,7 @@
 				13DC6BEE1B0F935800037D1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		13DC6BEF1B0F935800037D1C /* Build configuration list for PBXNativeTarget "polyConnectTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +472,7 @@
 				13DC6BF11B0F935800037D1C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
